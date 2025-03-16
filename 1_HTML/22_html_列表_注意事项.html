@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表_注意事项</title>
+</head>
+<body>
+    <!-- 列表使用要注意不要破坏列列表结构，具体来说就是在列表内 ol ul dl 内不能嵌套 li以外的 标签，否则会破坏列表结构 -->
+    <!-- 不要单独写li标签，因为游览器无法识别是什么列表 -->
+
+
+    <!-- 有序列表ordered list -->
+    <h2>要把冰箱放冰箱总共分几步？</h2>
+    <ol>
+        <li>打开冰箱</li>
+        <li>把大象放进去</li>
+        <li>把冰箱门关上</li>
+        <li>
+            <a href="https://www.baidu.com">去百度</a>
+        </li>
+    </ol>
+
+    <!-- 无序列表unordered list -->
+    <h2>我想去的几个城市</h2>
+    <ul>
+        <li>北京</li>
+        <li>
+            <span>上海</span>
+            <ul>
+                <li>
+                    <span>东方明珠</span>
+                    <ul>
+                        <li>
+                            xxxx
+                        </li>
+                    </ul>
+                </li>
+                <li>迪士尼</li>
+                <li>外滩</li>
+            </ul>
+        </li>
+        <li>上海</li>
+        <li>广州</li>
+    </ul>
+
+    <h2>如何更好的学习</h2>
+    <dl>
+        <dt>做好笔记</dt>
+        <dd>把重要的东西记下来</dd>
+        <dt>多加练习</dt>
+        <dd>只有敲出来的代码，才是自己的</dd>
+        <dt>别怕出错</dt>
+        <dd>错很正常的，改正后并记住，就是经验</dd>
+    </dl>
+
+</body>
+</html>
