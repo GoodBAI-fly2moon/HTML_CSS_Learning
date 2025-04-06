@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单——禁用表单控件</title>
+</head>
+<body>
+    <form action="https://search.jd.com/search">
+        <!-- 文本输入框 -->
+        id：<input type="text" name="account" value="zhangsan" maxlength="10"><br>
+        <!-- 密码输入框 -->
+        password：<input type="password" name="pwd" value="123" maxlength="10"><br>
+        <!-- 单选框 -->
+        <!-- 选中多行同时修改的快捷键是：command+option+方向键上<br> -->
+
+        性别：
+            <input type="radio" name="gender" value="male" checked>男 
+            <input type="radio" name="gender" value="female">女<br>
+        <!-- 多选框 -->
+        爱好：
+            <input type="checkbox" name="hobby" value="smoke" checked>抽烟
+            <input type="checkbox" name="hobby" value="drink">喝酒
+            <input type="checkbox" name="hobby" value="perm" checked disabled>烫头<br>
+        <!-- 隐藏域 --> 
+        <input type="hidden" name="hidden" value="123"> 
+        <br>
+
+        <!-- 文本域 -->
+        其他：<textarea name="textarea" cols="20" rows="10"></textarea><br>
+
+        <!-- 下拉列表 -->
+        籍贯：
+        <select name="place">
+            <option value="蒙" selected>内蒙古</option>
+            <option value="京">北京</option>
+            <option value="粤">上海</option>
+        </select><br>
+
+        <!-- 按钮 -->
+        <!-- 确认按钮——第一种写法 按钮不要带有name -->
+        <button type="submit">确认</button>
+
+        <!-- 重置按钮——第一种写法 按钮不要带有name -->
+        <!-- 重置就是回到默认值 -->
+        <button type="reset">重置</button>
+
+        <!-- 普通按钮 -->
+        <button type="button" disabled>检测账户是否被注册</button>
+    </form>
+</body>
+</html>

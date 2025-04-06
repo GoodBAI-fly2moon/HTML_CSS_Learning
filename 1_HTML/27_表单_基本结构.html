@@ -5,16 +5,18 @@
     <title>表单_基本结构</title>
 </head>
 <body>
-    <form action="https://www.baidu.com/s" target="_blank">
+    <!--侧重于收集用户数据-->
+    <form action="https://www.baidu.com/s" target="_blank" > 
         <input type="text" name="wd">
         <button>去百度搜索</button>
     </form>
     <hr>
-    <form action="https://www.jd.com/search" >
+    <form action="https://www.jd.com/search" target="_self" method="get">
         <input type="text" name="keyword">
         <button>去京东搜索</button>
     </form>
     <hr>
-    <a href="https"></a>
+    <!--侧重于跳转-->
+    <a href="https://search.jd.com/search?keyword=手机">搜索手机</a>
 </body>
 </html>

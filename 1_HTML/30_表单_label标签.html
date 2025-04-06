@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单——label标签</title>
+</head>
+<body>
+    <form action="https://search.jd.com/search">
+        <!-- first way to use label: -->
+        <label for="zhanghu">ID:</label>
+        <input id="zhanghu" type="text" name="account" maxlength="10"><br>
+        
+        <label for="mima">密码:</label>
+        <input id="mima" type="password" name="pwd" maxlength="10"><br>
+
+        <!-- second way to use label: -->
+        <label>性别：
+            <input type="radio" name="gender" value="male" checked>男 
+            <input type="radio" name="gender" value="female">女
+        </label><br>
+
+        <label>爱好：
+            <input type="checkbox" name="hobby" value="smoke" checked>抽烟
+            <input type="checkbox" name="hobby" value="drink">喝酒
+            <input type="checkbox" name="hobby" value="perm" checked disabled>烫头
+        </label><br>
+
+        <input type="hidden" name="hidden" value="123"><br>
+
+        <label for="other">其他：</label>
+        <textarea id="other" name="textarea" cols="20" rows="10"></textarea><br>
+
+        <label for="place">籍贯：</label>
+        <select id="place" name="place">
+            <option value="蒙" selected>内蒙古</option>
+            <option value="京">北京</option>
+            <option value="粤">上海</option>
+        </select><br>
+
+        <button type="submit">确认</button>
+        <button type="reset">重置</button>
+        <button type="button" disabled>检测账户是否被注册</button>
+    </form>
+</body>
+</html>
