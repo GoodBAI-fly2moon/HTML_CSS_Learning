@@ -36,6 +36,7 @@
 | 2025-03-16 | HTML列表与表格 | 掌握有序列表(ol)、无序列表(ul)、定义列表(dl)的使用；学习表格的基本结构(table/thead/tbody/tfoot)、单元格合并(colspan/rowspan)、表格常用属性；补充了换行(br)、分割线(hr)、预格式化(pre)等标签；开始学习表单基础结构 |
 | 2025-04-05 | HTML表单深入学习 | 掌握表单常用控件(input/select/textarea)、表单属性(action/method)、表单验证、多种input类型(text/password/radio/checkbox)、label标签的使用、fieldset分组 |
 | 2025-04-06 | iframe框架学习 | 学习iframe的基本用法、框架属性(src/width/height)、框架间通信、安全性考虑、响应式iframe设置、常见应用场景 |
+| 2025-04-07 | HTML实体学习 | 掌握HTML实体的概念和用途、常用HTML实体（&nbsp;、&lt;、&gt;、&amp;、&quot;、&copy;等）、在代码中正确使用实体、特殊字符的转义、空格实体的使用场景 |
 
 
 | 待更新 | ... | ... |
