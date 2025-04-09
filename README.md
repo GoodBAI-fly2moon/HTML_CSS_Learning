@@ -37,6 +37,10 @@
 | 2025-04-05 | HTML表单深入学习 | 掌握表单常用控件(input/select/textarea)、表单属性(action/method)、表单验证、多种input类型(text/password/radio/checkbox)、label标签的使用、fieldset分组 |
 | 2025-04-06 | iframe框架学习 | 学习iframe的基本用法、框架属性(src/width/height)、框架间通信、安全性考虑、响应式iframe设置、常见应用场景 |
 | 2025-04-07 | HTML实体学习 | 掌握HTML实体的概念和用途、常用HTML实体（&nbsp;、&lt;、&gt;、&amp;、&quot;、&copy;等）、在代码中正确使用实体、特殊字符的转义、空格实体的使用场景 |
+| 2025-04-08 | CSS基础入门 | 学习CSS选择器(元素/类/ID/属性选择器)、CSS引入方式(内联/内部/外部样式表)、CSS基础语法、选择器优先级、常用属性(color/font/background等) |
+
+
+| 待更新 | ... | ... |
 
 
 | 待更新 | ... | ... |
