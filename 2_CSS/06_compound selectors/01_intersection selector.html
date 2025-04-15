@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01_intersection selector</title>
+    <style>
+        .rich{
+            color: red;
+            font-size: 20px;
+        }
+       .beauty{
+            color: blue;
+            font-size: 20px;
+        }
+        /* active at sametime */
+        p.beauty#wc{
+            color: green;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="rich">tuhao_zhangsan</h2>
+    <h2 class="beauty">mingxing_zhangsan</h2>
+    <hr>
+    <p class="beauty" id="wc">pig</p>
+    <p class="beauty">dog</p>
+</body>
+</html>

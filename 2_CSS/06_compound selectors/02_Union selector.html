@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02_Union selector.html</title>
+    <style>
+        .rich {
+            color: yellow;
+        }
+
+        .beauty {
+            color: red;
+        }
+
+        .dog {
+            color: green;
+        }
+
+        .pig {
+            color: blue;
+        }
+
+        /* Union selector */
+        .rich,
+        .beauty,
+        .dog,
+        .pig {
+            font-size: 40px;
+            background-color: gray;
+            width: 180px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="rich">zhangsan</h2>
+    <h2 class="beauty">lisi</h2>
+    <h2>zhangsan_withoutmoney</h2>
+    <h2></h2>
+    <hr>
+    <p class="dog">dog</p>
+    <p class="pig">pig</p>
+</body>
+
+</html>
