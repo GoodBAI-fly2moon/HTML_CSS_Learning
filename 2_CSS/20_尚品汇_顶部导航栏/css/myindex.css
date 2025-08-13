@@ -1,0 +1,61 @@
+/* 基础设置 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+/* #region顶部导航条 start */
+.topbar {
+    height: 30px;
+    background-color: #ECECEC;
+}
+
+.welcome {
+    height: 30px; /* 保证欢迎区的文字垂直居中 */
+    line-height: 30px;
+
+    font-size: 0; /* 换行会导致元素之间有空格，所以要将字体大小设为 0 */
+
+    color: #666666;
+}
+
+.welcome span, .welcome a {
+    font-size: 12px; /* 设置欢迎区的字体大小 */
+}
+
+.welcome .welcome-msg {
+    margin-right: 28px; /* 欢迎区的欢迎文字的右边距 */
+}
+
+.welcome .login {
+    padding-right: 10px;
+    border-right: 1px solid #666666;
+}
+
+.welcome .register {
+    margin-left: 10px;
+}
+
+.topbar-nav .list {
+    height: 30px;
+    line-height: 30px;
+}
+
+.topbar-nav .list li{
+    float: left;
+}
+
+.topbar-nav .list li a{
+    padding: 0 15px;
+    border-right: 1px solid #666666;
+}
+.topbar-nav .list li:first-child a{
+    padding-left: 0;
+}
+.topbar-nav .list li:last-child a{
+    padding-right: 0;
+    border-right: none;
+}
+/* #endregion顶部导航条 end */
+
