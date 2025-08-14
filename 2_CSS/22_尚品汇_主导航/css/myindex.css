@@ -1,0 +1,117 @@
+/* 基础设置 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+    background-color: lightblue;
+}
+
+/* #region顶部导航条 start */
+.topbar {
+    height: 30px;
+    background-color: #ECECEC;
+}
+
+.welcome {
+    height: 30px; /* 保证欢迎区的文字垂直居中 */
+    line-height: 30px;
+
+    font-size: 0; /* 换行会导致元素之间有空格，所以要将字体大小设为 0 */
+
+    color: #666666;
+}
+
+.welcome span, .welcome a {
+    font-size: 12px; /* 设置欢迎区的字体大小 */
+}
+
+.welcome .welcome-msg {
+    margin-right: 28px; /* 欢迎区的欢迎文字的右边距 */
+}
+
+.welcome .login {
+    padding-right: 10px;
+    border-right: 1px solid #666666;
+}
+
+.welcome .register {
+    margin-left: 10px;
+}
+
+.topbar-nav .list {
+    height: 30px;
+    line-height: 30px;
+}
+
+.topbar-nav .list li{
+    float: left;
+}
+
+.topbar-nav .list li a{
+    padding: 0 15px;
+    border-right: 1px solid #666666;
+}
+.topbar-nav .list li:first-child a{
+    padding-left: 0;
+}
+.topbar-nav .list li:last-child a{
+    padding-right: 0;
+    border-right: none;
+}
+/* #endregion顶部导航条 end */
+
+/* #region头部 start */
+.header {
+    height: 120px;
+    background-color: #ECECEC;
+}
+
+.header .search form {
+    margin-top: 42px;
+    font-size: 0;
+}
+
+.header .search input {
+    height: 34px;
+    width: 510px;
+    border: 1px solid #DD302D;
+}
+
+.header .search button {
+    height: 36px;
+    width: 80px;
+    background-color: #DD302D;
+    vertical-align: top;
+    background-image: url('../images/serch_icon.png');
+    background-repeat: no-repeat;
+    background-position: 28px 6px;
+} 
+/* #endregion头部 end */
+
+/* #region主导航区域 */
+.main-nav {
+    height: 48px;
+    border-bottom: 1px solid #DD302D;
+    /* background-color: #DD302D; */
+}
+.main-nav .all-types {
+    width: 190px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #DD302D;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.main-nav .main-nav-list {
+    height: 48px;
+    line-height: 48px;
+}
+.main-nav .main-nav-list li {
+    float: left;
+    margin: 0 10px;
+    font-size: 16px;
+}
+/* #endregion主导航区域 */
+
+
